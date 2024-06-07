@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    background-color: rgb(3, 3, 71);
+    width: 100%;
+    height: 103px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+.nav_logo{
+    width: 130px;
+    height: 40px;
+    margin-top: 16%;
+    margin-bottom:20%;
+    margin-left: 5%;
+}
+.nav_button{
+    border-radius: 10%;
+    margin-left: 130px;
+    border: solid 2px color rgb(255, 250, 250);
+    cursor: pointer;
+    stroke: aliceblue solid 2px;
+    text-decoration-color: aliceblue;
+    color: white;
+    background-color: black;
+
+}
+.section1{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 1475px;
+    height: 484px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.main_section{
+    margin-right: 25%;
+    margin-left: 11%;
+    padding: auto;
+    display: flex;
+}
+.main_lire{
+    text-shadow: none;
+    padding: auto;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+}
+.main_button{
+    background-color: rgba(237, 9, 9, 0.944);
+    border-radius: 20px;
+    position: absolute;
+    width:300px;
+    height: 48px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 4%;
+
+}
+.texte{
+    color: rgb(1, 10, 2);
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.global{
+    width: 1469px;
+    height: 484px;
+    display:flex;
+    justify-content: center;
+}
+.global_plus{
+    width: 415px;
+    height: 390px;
+    background-color: rgba(183, 15, 15, 0.956);
+   border-radius:50px ;
+   align-items: center;
+   margin: auto;
+   
+}
+.section{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 1475px;
+    height: 484px;
+    background-color: #e20d0d;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+.case{
+width:354px ;
+height:247px ;
+background-color: white;
+border-radius: 10px;
+margin-top: 15%;
+margin-left: auto;
+display: flex;
+}
+.img{
+    display: flex;
+    margin:auto
+}
+.phot{
+    display: flex;
+    margin: auto;
+}
+.plus_extra{
+    display: flex;
+    margin-top: auto;
+}
+.footer{
+    background-color: rgb(4, 5, 55);
+    width:1550px ;
+    height:350px ;
+    display: flex;
+}
